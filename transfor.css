@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+}
+.box {
+    position:relative;
+    left: 50px;
+    top: 50px;
+    background-color: white;
+    box-shadow: 1px 4px 2px rgba(0,0,0,0.4);
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    transform: translate(50px,100px);
+    transform: scale(2,2);
+    transform: skewX(25deg);
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+.box:hover {
+    width: 150px
+}
